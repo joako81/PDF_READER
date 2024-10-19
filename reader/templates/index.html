@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Mis PDFs</h1>
+<ul>
+    {% for pdf in pdfs %}
+        <li>
+            <a href="{{ pdf.file.url }}" target="_blank">{{ pdf.title }}</a>
+        </li>
+    {% empty %}
+        <li>No tienes PDFs guardados.</li>
+    {% endfor %}
+</ul>
+{% endblock %}

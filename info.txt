@@ -1,0 +1,2 @@
+url postgresql:  postgresql://pdf_reader_bbdd_owner:m2kXDSsv8age@ep-cool-silence-a22lb6jr.eu-central-1.aws.neon.tech/pdf_reader_bbdd?sslmode=require
+
